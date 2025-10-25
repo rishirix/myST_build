@@ -2335,28 +2335,6 @@ tstrsequence(uchar c)
 }
 
 void
-tupdatebgcolor(int oldbg, int newbg)
-{
-	for (int y = 0; y < term.row; y++) {
-		for (int x = 0; x < term.col; x++) {
-			if (term.c.attr.bg == oldbg)
-				term.c.attr.bg = newbg;
-		}
-	}
-}
-
-void
-tupdatefgcolor(int oldfg, int newfg)
-{
-	for (int y = 0; y < term.row; y++) {
-		for (int x = 0; x < term.col; x++) {
-			if (term.c.attr.fg == oldfg)
-				term.c.attr.fg = newfg;
-		}
-	}
-}
-
-void
 tcontrolcode(uchar ascii)
 {
 	switch (ascii) {
