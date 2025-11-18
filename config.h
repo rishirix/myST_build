@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "DroidSansM Nerd Font Mono:pixelsize=13:antialias=true:autohint=true";
-static int borderpx = 1;
+static char *font = "Monospace:pixelsize=12:antialias=true:autohint=true";
+static int borderpx = 0;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -100,28 +100,28 @@ float alpha = 0.5;
 static const char *colorname[] = {
 
   /* 8 normal colors */
-  [0] = "#282a2e", /* black   */
-  [1] = "#a54242", /* red     */
-  [2] = "#8c9440", /* green   */
-  [3] = "#de935f", /* yellow  */
-  [4] = "#5f819d", /* blue    */
-  [5] = "#85678f", /* magenta */
-  [6] = "#5e8d87", /* cyan    */
-  [7] = "#707880", /* white   */
+  [0] = "#232323", /* black   */
+  [1] = "#ff000f", /* red     */
+  [2] = "#8ce10b", /* green   */
+  [3] = "#ffb900", /* yellow  */
+  [4] = "#008df8", /* blue    */
+  [5] = "#6d43a6", /* magenta */
+  [6] = "#00d8eb", /* cyan    */
+  [7] = "#ffffff", /* white   */
 
   /* 8 bright colors */
-  [8]  = "#373b41", /* black   */
-  [9]  = "#cc6666", /* red     */
-  [10] = "#b5bd68", /* green   */
-  [11] = "#f0c674", /* yellow  */
-  [12] = "#81a2be", /* blue    */
-  [13] = "#b294bb", /* magenta */
-  [14] = "#8abeb7", /* cyan    */
-  [15] = "#c5c8c6", /* white   */
+  [8]  = "#444444", /* black   */
+  [9]  = "#ff2740", /* red     */
+  [10] = "#abe15b", /* green   */
+  [11] = "#ffd242", /* yellow  */
+  [12] = "#0092ff", /* blue    */
+  [13] = "#9a5feb", /* magenta */
+  [14] = "#67fff0", /* cyan    */
+  [15] = "#ffffff", /* white   */
 
   /* special colors */
-  [256] = "#1d1f21", /* background */
-  [257] = "#c5c8c6", /* foreground */
+  [256] = "#232323", /* background */
+  [257] = "#ffffff", /* foreground */
 };
 
 /*
